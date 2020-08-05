@@ -1,7 +1,7 @@
 # cocoda-configs
 Example configuration files for [Cocoda Mapping Tool](https://github.com/gbv/cocoda).
 
-Note that to be able to use configuration files from GitHub directly in Cocoda, it is necessary to use some kind of proxy. For example, you could use [jsDelivr](https://www.jsdelivr.com/?docs=gh) for that (as do the links below).
+Note that to be able to use configuration files from GitHub directly in Cocoda, it is necessary to use some kind of proxy. For example, you could use [jsDelivr](https://www.jsdelivr.com/?docs=gh) for that (as do the links below). (Alternative: https://raw.githack.com, ...)
 
 ## empty
 An empty config file. Cocoda will use the [default config](https://github.com/gbv/cocoda/blob/dev/config/cocoda.default.json) that is included in the Cocoda repository.
