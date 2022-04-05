@@ -1,0 +1,53 @@
+{
+  "registries": [
+    {
+      "provider": "ConceptApi",
+      "uri": "http://coli-conc.gbv.de/registry/bartoc",
+      "status": "https://bartoc.org/api/status",
+      "schemes": "https://bartoc.org/api/voc?uri=http%3A%2F%2Fbartoc.org%2Fen%2Fnode%2F533%7Chttp%3A%2F%2Fbartoc.org%2Fen%2Fnode%2F20049",
+      "notation": [
+        "BARTOC"
+      ],
+      "prefLabel": {
+        "en": "BARTOC API"
+      }
+    },
+    {
+      "provider": "MappingsApi",
+      "uri": "http://coli-conc.gbv.de/registry/coli-conc-mappings",
+      "status": "https://coli-conc.gbv.de/api/status",
+      "notation": [
+        "C"
+      ],
+      "prefLabel": {
+        "de": "Konkordanz-Register",
+        "en": "Concordance Registry"
+      },
+      "definition": {
+        "en": [
+          "Central concordance registry of coli-conc"
+        ],
+        "de": [
+          "Zentrale Konkordanz-Datenbank von coli-conc"
+        ]
+      }
+    },
+    {
+      "provider": "LabelSearchSuggestion",
+      "uri": "http://coli-conc.gbv.de/registry/coli-conc-recommendations",
+      "notation": [
+        "CR"
+      ],
+      "prefLabel": {
+        "en": "coli-conc Recommendations",
+        "de": "coli-conc Vorschläge"
+      }
+    }
+  ],
+  "overrideRegistries": true,
+  "favoriteSchemes": [
+    "http://bartoc.org/en/node/533",
+    "http://bartoc.org/en/node/20049"
+  ],
+  "title": "Cocoda Mapping Tool (RVK/SDNB)"
+}
