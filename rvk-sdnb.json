@@ -49,5 +49,6 @@
     "http://bartoc.org/en/node/533",
     "http://bartoc.org/en/node/20049"
   ],
-  "title": "Cocoda Mapping Tool (RVK/SDNB)"
+  "title": "Cocoda Mapping Tool (RVK/SDNB)",
+  "auth": "https://coli-conc.gbv.de/login/"
 }
