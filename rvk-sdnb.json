@@ -4,7 +4,7 @@
       "provider": "ConceptApi",
       "uri": "http://coli-conc.gbv.de/registry/bartoc",
       "status": "https://bartoc.org/api/status",
-      "schemes": "https://bartoc.org/api/voc?uri=http%3A%2F%2Fbartoc.org%2Fen%2Fnode%2F533%7Chttp%3A%2F%2Fbartoc.org%2Fen%2Fnode%2F20049",
+      "schemes": "https://bartoc.org/api/voc?uri=http%3A%2F%2Fbartoc.org%2Fen%2Fnode%2F533%7Chttp%3A%2F%2Fbartoc.org%2Fen%2Fnode%2F20049%7Chttp%3A%2F%2Fbartoc.org%2Fen%2Fnode%2F18785",
       "notation": [
         "BARTOC"
       ],
