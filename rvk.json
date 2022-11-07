@@ -1,0 +1,474 @@
+{
+  "cocodaBaseUrl": "https://coli-conc.gbv.de/cocoda/rvk/",
+  "auth": "https://coli-conc.gbv.de/login/",
+  "registries": [
+    {
+      "provider": "ConceptApi",
+      "uri": "http://coli-conc.gbv.de/registry/gnd-concepts",
+      "data": "//coli-conc.gbv.de/services/gnd.php",
+      "suggest": "//ws.gbv.de/suggest/gnd/?searchterm={searchTerms}",
+      "types": "//ws.gbv.de/suggest/gnd/types",
+      "schemes": [
+        {
+          "uri": "http://bartoc.org/en/node/430",
+          "concepts": [
+            null
+          ],
+          "topConcepts": []
+        }
+      ],
+      "notation": [
+        "G"
+      ],
+      "prefLabel": {
+        "de": "Gemeinsame Normdatei",
+        "en": "Integrated Authority File"
+      },
+      "definition": {
+        "en": [
+          "Access to a copy of GND at VZG"
+        ],
+        "de": [
+          "Zugriff auf eine GND-Kopie an der VZG"
+        ]
+      }
+    },
+    {
+      "provider": "ConceptApi",
+      "uri": "http://coli-conc.gbv.de/registry/wikidata-concepts",
+      "data": "//coli-conc.gbv.de/services/wikidata/concept/",
+      "suggest": "//coli-conc.gbv.de/services/wikidata/suggest?search={searchTerms}",
+      "schemes": [
+        {
+          "uri": "http://bartoc.org/en/node/1940",
+          "concepts": [
+            null
+          ],
+          "topConcepts": []
+        }
+      ],
+      "notation": [
+        "WD"
+      ],
+      "prefLabel": {
+        "en": "Wikidata"
+      },
+      "definition": {
+        "en": [
+          "Access to Wikidata in JSKOS format"
+        ],
+        "de": [
+          "Zugriff auf Wikidata im JSKOS-Format"
+        ]
+      }
+    },
+    {
+      "provider": "ConceptApi",
+      "uri": "http://coli-conc.gbv.de/registry/coli-conc-rvk",
+      "status": "//coli-conc.gbv.de/rvk/api/status",
+      "notation": [
+        "RVK"
+      ],
+      "prefLabel": {
+        "de": "Regensburger Verbundklassifikation"
+      }
+    },
+    {
+      "provider": "ConceptApi",
+      "uri": "http://coli-conc.gbv.de/registry/coli-conc-concepts",
+      "status": "//coli-conc.gbv.de/api/status",
+      "schemes": [
+        {
+          "uri": "http://dewey.info/scheme/edition/e23/",
+          "prefLabel": {
+            "de": "Dewey-Dezimalklassifikation",
+            "en": "Dewey Decimal Classification"
+          },
+          "notation": [
+            "DDC"
+          ],
+          "identifier": [
+            "http://bartoc.org/en/node/241"
+          ],
+          "license": [
+            {
+              "uri": "http://creativecommons.org/licenses/by-nc-nd/3.0/"
+            }
+          ],
+          "publisher": [
+            {
+              "uri": "http://d-nb.info/gnd/1086052218",
+              "prefLabel": {
+                "de": "OCLC"
+              },
+              "altLabel": {
+                "de": [
+                  "OCLC Online Computer Library Center"
+                ]
+              },
+              "url": "https://www.oclc.org/"
+            }
+          ],
+          "languages": [
+            "de"
+          ],
+          "uriPattern": "^http://dewey.info/class/(.+)/e23/$",
+          "notationPattern": "[0-9][0-9]?|[0-9]{3}(-[0-9]{3})?|[0-9]{3}.[0-9]+(-[0-9]{3}.[0-9]+)?|[1-9][A-Z]?--[0-9]+|[1-9][A-Z]?--[0-9]+(-[1-9][A-Z]?--[0-9]+)?",
+          "topConcepts": [
+            null
+          ],
+          "concepts": [
+            null
+          ],
+          "type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+          ]
+        },
+        {
+          "CQLKEY": "GND",
+          "EXAMPLES": [
+            "118540475"
+          ],
+          "NOTATION_REGEX": {
+
+          },
+          "PROPERTY": "P227",
+          "URI_REGEX": {
+
+          },
+          "extent": "11269767",
+          "identifier": [
+            "http://www.wikidata.org/entity/Q36578"
+          ],
+          "namespace": "http://d-nb.info/gnd/",
+          "notation": [
+            "GND"
+          ],
+          "notationPattern": "[0-9X-]+",
+          "prefLabel": {
+            "-": "?",
+            "de": "Gemeinsame Normdatei",
+            "en": "Integrated Authority File"
+          },
+          "type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+            "http://w3id.org/nkos/nkostype#classification_schema",
+            "http://w3id.org/nkos/nkostype#subject_heading_scheme"
+          ],
+          "uri": "http://bartoc.org/en/node/430",
+          "uriPattern": "^http://d-nb\\.info/gnd/(1[01]?\\d{7}[0-9X]|[47]\\d{6}-\\d|[1-9]\\d{0,7}-[0-9X]|3\\d{7}[0-9X])$",
+          "concepts": [],
+          "topConcepts": []
+        },
+        {
+          "CQLKEY": "BKL",
+          "EXAMPLES": [
+            "86.78"
+          ],
+          "NOTATION_REGEX": {
+
+          },
+          "PICAPATH": "045Q[0X]$a",
+          "PROPERTY": "P5748",
+          "URI_REGEX": {
+
+          },
+          "created": "2019-03-15",
+          "extent": "2139",
+          "identifier": [
+            "http://id.loc.gov/vocabulary/classSchemes/bkl",
+            "http://uri.gbv.de/terminology/bk/",
+            "http://www.wikidata.org/entity/Q29938469"
+          ],
+          "issued": "2019-03-15",
+          "languages": [
+            "de"
+          ],
+          "modified": "2019-03-15",
+          "namespace": "http://uri.gbv.de/terminology/bk/",
+          "notation": [
+            "BK",
+            "bk"
+          ],
+          "notationPattern": "(0|1-2|3-4|5|7-8|[0-9]{2}(\\.[0-9]{2})?)",
+          "prefLabel": {
+            "-": "?",
+            "de": "Basisklassifikation",
+            "en": "Basisklassifikation"
+          },
+          "publisher": [
+            {
+              "prefLabel": {
+                "de": "Gemeinsamer Bibliotheksverbund (GBV)"
+              }
+            }
+          ],
+          "type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+            "http://w3id.org/nkos/nkostype#classification_schema"
+          ],
+          "uri": "http://bartoc.org/en/node/18785",
+          "uriPattern": "^http://uri\\.gbv\\.de/terminology/bk/(0|1-2|3-4|5|7-8|[01234578]\\d(\\.\\d{2})?)$",
+          "concepts": [],
+          "topConcepts": []
+        },
+        {
+          "CQLKEY": "rvk",
+          "EXAMPLES": [
+            "GB 3022"
+          ],
+          "NOTATION_REGEX": {
+
+          },
+          "PICAPATH": "045R$a",
+          "PROPERTY": "P1150",
+          "URI_REGEX": {
+
+          },
+          "created": "2019-03-15",
+          "identifier": [
+            "http://id.loc.gov/vocabulary/classSchemes/rvk",
+            "https://bartoc.org/en/node/533",
+            "http://uri.gbv.de/terminology/rvk/",
+            "http://www.wikidata.org/entity/Q2137453"
+          ],
+          "issued": "2019-03-15",
+          "languages": [
+            "de"
+          ],
+          "license": [
+            {
+              "notation": [
+                "CC0 1.0",
+                "CC0"
+              ],
+              "prefLabel": {
+                "de": "Creative Commons Public Domain Dedication",
+                "en": "Creative Commons Public Domain Dedication"
+              },
+              "uri": "http://creativecommons.org/publicdomain/zero/1.0/"
+            }
+          ],
+          "modified": "2019-03-15",
+          "namespace": "http://rvk.uni-regensburg.de/nt/",
+          "notation": [
+            "RVK",
+            "rvk"
+          ],
+          "notationPattern": "(LD,)?[A-Z]([A-Z]( [0-9]+([a-z]|\\.[0-9]+)?( [A-Z][0-9]*)?)?)?( - [A-Z]([A-Z]( [0-9]+([a-z]|\\.[0-9]+)?( [A-Z][0-9]*)?)?)?)?",
+          "prefLabel": {
+            "-": "?",
+            "de": "Regensburger Verbundklassifikation",
+            "en": "Regensburg Classification"
+          },
+          "publisher": [
+            {
+              "prefLabel": {
+                "de": "Universitätsbibliothek Regensburg"
+              }
+            }
+          ],
+          "type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+            "http://w3id.org/nkos/nkostype#classification_schema"
+          ],
+          "uri": "http://bartoc.org/en/node/533",
+          "uriPattern": "^http://rvk\\.uni-regensburg\\.de/nt/((LD,)?[A-Z]([A-Z](%20[0-9]+([a-z]|\\.[0-9]+)?(%20[A-Z][0-9]*)?)?)?(%20-%20[A-Z]([A-Z](%20[0-9]+([a-z]|\\.[0-9]+)?(%20[A-Z][0-9]*)?)?)?)?)$",
+          "concepts": [],
+          "topConcepts": []
+        },
+        {
+          "identifier": [
+            "http://www.wikidata.org/entity/Q2013"
+          ],
+          "languages": [
+            "de",
+            "en"
+          ],
+          "license": [
+            {
+              "uri": "http://creativecommons.org/publicdomain/zero/1.0/"
+            }
+          ],
+          "namespace": "http://www.wikidata.org/entity/",
+          "notation": [
+            "WD"
+          ],
+          "notationPattern": "Q[0-9]+",
+          "prefLabel": {
+            "en": "Wikidata"
+          },
+          "type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+          ],
+          "uri": "http://bartoc.org/en/node/1940",
+          "topConcepts": [],
+          "concepts": []
+        }
+      ],
+      "notation": [
+        "J"
+      ],
+      "prefLabel": {
+        "en": "JSKOS Server"
+      },
+      "definition": {
+        "en": [
+          "central JSKOS server instance of coli-conc"
+        ],
+        "de": [
+          "zentrale JSKOS-Server Instanz von coli-conc"
+        ]
+      }
+    },
+    {
+      "provider": "ConceptApi",
+      "uri": "http://coli-conc.gbv.de/registry/dante-concepts",
+      "top": "//api.dante.gbv.de/voc/top",
+      "data": "//api.dante.gbv.de/data",
+      "narrower": "//api.dante.gbv.de/narrower",
+      "ancestors": "//api.dante.gbv.de/ancestors",
+      "types": "//api.dante.gbv.de/types",
+      "suggest": "//api.dante.gbv.de/suggest",
+      "search": "//api.dante.gbv.de/search",
+      "schemes": [
+        {
+          "uri": "http://uri.gbv.de/terminology/bk/"
+        }
+      ],
+      "notation": [
+        "D"
+      ],
+      "prefLabel": {
+        "en": "DANTE"
+      },
+      "definition": {
+        "en": [
+          "DANTE API with vocabularies at VZG"
+        ],
+        "de": [
+          "DANTE-API der VZG"
+        ]
+      }
+    },
+    {
+      "provider": "MappingsApi",
+      "uri": "http://coli-conc.gbv.de/registry/coli-conc-mappings",
+      "status": "https://coli-conc.gbv.de/api/status",
+      "autoRefresh": 10000,
+      "notation": [
+        "C"
+      ],
+      "prefLabel": {
+        "de": "Konkordanz-Register",
+        "en": "Concordance Registry"
+      },
+      "definition": {
+        "en": [
+          "Central concordance registry of coli-conc"
+        ],
+        "de": [
+          "Zentrale Konkordanz-Datenbank von coli-conc"
+        ]
+      }
+    },
+    {
+      "provider": "SearchSuggestion",
+      "uri": "http://coli-conc.gbv.de/registry/coli-conc-recommendations",
+      "excludedSchemes": [
+        {
+          "uri": "http://bartoc.org/en/node/1940"
+        },
+        {
+          "uri": "http://bartoc.org/en/node/430"
+        },
+        {
+          "uri": "http://nomisma.org/id/"
+        }
+      ],
+      "notation": [
+        "CR"
+      ],
+      "prefLabel": {
+        "en": "coli-conc Recommendations",
+        "de": "coli-conc Vorschläge"
+      }
+    },
+    {
+      "provider": "MappingsApi",
+      "uri": "http://coli-conc.gbv.de/registry/ccmapper-mapping-recommendations",
+      "status": "//coli-conc.gbv.de/ccmapper/api/status",
+      "schemes": [
+        {
+          "uri": "http://dewey.info/scheme/edition/e23/"
+        },
+        {
+          "uri": "http://uri.gbv.de/terminology/rvk/"
+        }
+      ],
+      "stored": false,
+      "notation": [
+        "CC"
+      ],
+      "prefLabel": {
+        "en": "ccmapper Mapping Recommendations",
+        "de": "ccmapper Mapping-Vorschläge"
+      }
+    },
+    {
+      "provider": "ReconciliationApi",
+      "uri": "http://coli-conc.gbv.de/registry/wikidata-reconciliation",
+      "reconcile": "https://tools.wmflabs.org/openrefine-wikidata/{language}/api",
+      "schemes": [
+        {
+          "uri": "http://bartoc.org/en/node/1940"
+        }
+      ],
+      "notation": [
+        "WR"
+      ],
+      "prefLabel": {
+        "de": "Wikidata-Reconciliation",
+        "en": "Wikidata Reconciliation"
+      },
+      "definition": {
+        "en": [
+          "Wikidata Reconciliation API"
+        ],
+        "de": [
+          "Wikidata-Reconciliation API"
+        ]
+      }
+    },
+    {
+      "provider": "ReconciliationApi",
+      "uri": "http://coli-conc.gbv.de/registry/gnd-reconciliation",
+      "reconcile": "https://lobid.org/gnd/reconcile",
+      "schemes": [
+        {
+          "uri": "http://bartoc.org/en/node/430"
+        }
+      ],
+      "notation": [
+        "GR"
+      ],
+      "prefLabel": {
+        "de": "GND-Reconciliation",
+        "en": "GND Reconciliation"
+      },
+      "definition": {
+        "en": [
+          "GND Reconciliation API (lobid.org)"
+        ],
+        "de": [
+          "GND-Reconciliation API (lobid.org)"
+        ]
+      }
+    }
+  ],
+  "overrideRegistries": true,
+  "title": "Cocoda Mapping Tool (RVK)",
+  "conceptLists": [
+    "https://coli-conc.gbv.de/lists/rvk-ohne-bk-top250.json"
+  ]
+}
