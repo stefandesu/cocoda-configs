@@ -1,0 +1,15 @@
+{
+  "overrideRegistries": false,
+  "registries": [
+    {
+      "provider": "ConceptApi",
+      "uri": "http://localhost:3000",
+      "schemes": "http://localhost:3000/voc?uri=http%3A%2F%2Fbartoc.org%2Fen%2Fnode%2F241",
+      "notation": ["DDC_eng"],
+      "prefLabel": {"en": "DDC English (local)"}
+    }
+  ],
+  "conceptLists": [
+    "https://stefandesu.github.io/cocoda-test-lists/kxp-ddc-1000.json"
+  ]
+}
